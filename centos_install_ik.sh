@@ -33,6 +33,6 @@ echo "gateway: ${gw_iface[0]}"
 echo "install successfully, please restart system."
 }
 
-if wget -c http://418o4716r4.qicp.vip:9101/iKuai8_x32_3.3.3_Build202002040918.iso -O /root/ik.iso ;then
+if wget -c https://github.com/mfkd1000/ik/raw/main/iKuai8_x32_3.3.3_Build202002040918.iso -O /root/ik.iso ;then
 	write_grub_menu
 fi
